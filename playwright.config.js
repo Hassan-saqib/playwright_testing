@@ -33,7 +33,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: "on",
     video: "on",
-    videos: 'test-results/videos', // Specify the path for saved videos
+  //  videos: 'test-results/videos', // Specify the path for saved videos
   },
 
   /* Configure projects for major browsers */
@@ -80,5 +80,26 @@ export default defineConfig({
   //   url: 'http://127.0.0.1:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
+
+   /* Custom configuration options */
+   metadata: {
+    sites: [
+      {
+        url: 'https://tp-staging-ten.tenproduct.com/product/ten/homepage/gb/en-gb?v=2',
+        email: 'hassansaqib@tengroup.com',
+        password: '!Password10',
+      },
+      {
+        url: 'https://tp-staging-bankofmelbourne.tenproduct.com',
+        email: 'melbourne1@yopmail.com',
+        password: '!Password10',
+      },
+      {
+        url: 'https://tp-staging-westpac.tenproduct.com',
+        email: 'westpacoriginal11111@yopmail.com',
+        password: '!Password10',
+      },
+    ],
+  }
 });
 
