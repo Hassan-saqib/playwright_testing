@@ -85,7 +85,7 @@ export default defineConfig({
    metadata: {
     sites: [
       {
-        url: 'https://tp-staging-ten.tenproduct.com/product/ten/homepage/gb/en-gb?v=2',
+      url: 'https://tp-staging-ten.tenproduct.com/product/ten/homepage/gb/en-gb?v=2',
         email: 'hassansaqib@tengroup.com',
         password: '!Password10',
       },

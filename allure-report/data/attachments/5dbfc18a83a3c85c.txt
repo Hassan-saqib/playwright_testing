@@ -1,0 +1,2 @@
+Skipping cookie acceptance for site: https://tp-staging-westpac.tenproduct.com
+Test completed for site: https://tp-staging-westpac.tenproduct.com
