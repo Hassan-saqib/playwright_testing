@@ -31,8 +31,8 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    screenshot: "on",
-    video: "on",
+    screenshot: "on-first-failure",
+    video: "on-first-retry"
   //  videos: 'test-results/videos', // Specify the path for saved videos
   },
 
